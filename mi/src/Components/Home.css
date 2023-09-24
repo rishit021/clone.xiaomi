@@ -1,0 +1,170 @@
+.homeback{
+    padding: 54px 0px;
+    overflow-x: hidden;
+    width: auto;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+    z-index: 3;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+    width: 2px;
+    z-index: 3;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+/* ---------------Pster Carousel------------------------------------------------ */
+.carouselback{
+    background-color:bisque;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    width: max-content;
+
+}
+.slide{
+    height: 380px;
+    background-color: aqua;
+    margin: 5px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: blue;
+    border-radius: 15px;
+    z-index: 5;
+}
+
+/* ---------------Pster Carousel------------------------------------------------ */
+
+#flex{
+    display: flex;
+    width: max-content;
+}
+
+.slideback{
+    height: 400px;
+    width: 300px;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border-radius: 15px;
+    color: white;
+}
+
+.name{
+    font-size: 18px;
+    padding: 0px 2px;
+}
+.dis{
+    font-size: 35px;
+}
+#mrp{
+    font-size: 20px;
+}
+
+.smallcard{
+   background-color: rgb(74, 74, 74);
+   border-radius: 20px;
+   width: 900px;
+   margin: 10px 20px;
+   padding: 20px;
+   color: aliceblue;
+   font-size: 40px;
+}
+
+.smallcard :nth-child(1){
+    color: black;
+}
+
+.postergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.poster{
+    background-color: blueviolet;
+    margin: 5px;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#ps1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 550px;
+    width: 500px;
+    background-image: url('https://i03.appmifile.com/52_operator_in/19/04/2023/e4385d144c001fa372384a89941426dc.jpg?f=webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: darkkhaki;
+}
+
+#ps2{
+    background-image: url('https://i03.appmifile.com/135_operator_in/23/04/2023/29125b1365d9436ac36319ea3d206147.jpg?f=webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: brown;
+    height: 250px;
+}
+#ps3{
+    grid-column-start: 2;
+    background-image: url('https://i03.appmifile.com/185_operator_in/27/04/2023/be69dad523d77b975a06324f7930dbd0.jpg');
+    grid-column-end: 3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+
+.bigposter img {
+    height: 400px;
+    width: 1050px;
+}
+
+/* ----------  movies carousel  ------------------------------------------------------------------------------------------ */
+
+.movieposterback{
+    width: 1024px;
+    height: 500px;
+}
+
+.movieslide{
+    height: 500px;
+    width: 1014px;
+    background-repeat: no-repeat;
+    background-size: 1014px 600px;
+    margin: 0px 5px;
+}
+
+#mi{
+    height: 30px;
+    width: 50px;
+}
+.logo{
+    position: relative;
+    left: 890px;
+    top: 450px;
+    font-weight: 700;
+}
+
+.logo :nth-child(2)
+{
+    color: white;
+    position: relative;
+    top: -3px;
+    left: -10px;
+    font-size: 30px;
+}

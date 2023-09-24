@@ -1,0 +1,38 @@
+.storeback{
+    padding: 50px 0px;
+    overflow-x: hidden;
+}
+
+.bigslider{
+    height: 350px;
+    width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigslide{
+    background-color: blue;
+    height: 340px;
+    width: 1014px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.text{
+    padding: 100px;
+    color: white;
+}
+
+.text :nth-child(2){
+    font-size: 30px;
+}
+.text :nth-child(1){
+    font-size: 20px;
+    opacity: 0.8;
+}
+.text :nth-child(3){
+    font-size: 20px;
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+#right{
+    position : relative;
+    bottom: 220px;
+    left: 980px;
+    z-index: 5;
+    padding: 3px;
+    background : transparent;
+    border : transparent;
+    color: azure;
+}
+
+#left{
+    position :relative;
+    right: 50px;
+    bottom: 220px;
+    z-index: 5;
+    padding: 3px;
+    background : transparent;
+    border : transparent;
+    color: azure;
+}

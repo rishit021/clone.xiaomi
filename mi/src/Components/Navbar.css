@@ -1,0 +1,30 @@
+.navback{
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    color: rgb(255, 39, 39);
+}
+
+.navitems{
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#milogo{
+    height: 25px;
+    width: 50px;
+    position: relative;
+    top: 2px;
+}
+
+#marvellogo{
+    height: 30px;
+    width: 120px;
+    position: relative;
+    bottom: -5px;
+}

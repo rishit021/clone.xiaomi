@@ -1,0 +1,21 @@
+.mback{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+.msslide{
+    height: 500px;
+    width: 1020px;
+    background-color: aqua;
+    margin: 2px;
+    background-size: cover;
+}
+
+.mslogo{
+    background-color: blue;
+    position: relative;
+
+}
+.msdis{
+    background-color: aqua;
+}
